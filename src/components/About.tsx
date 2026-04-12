@@ -39,7 +39,7 @@ export function About() {
         </p>
         <p>
           <span className="font-medium text-foreground">
-            When I'm not in front of a screen
+            When I'm not working
           </span>
           , you'll probably find me at the gym (meal prep game is serious),
           watching movies or anime, discovering new music, new food or new activities.
