@@ -44,7 +44,7 @@ export function ProjectCard({ project }: { project: Project }) {
       </p>
 
       {/* Tech labels */}
-      <div className="flex flex-wrap gap-x-3 gap-y-1 font-mono text-xs text-muted-foreground/80">
+      <div className="flex flex-wrap gap-x-3 gap-y-1 font-mono text-xs text-primary/70">
         {project.technologies.map((tech) => (
           <span key={tech}>{tech}</span>
         ))}

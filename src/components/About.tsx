@@ -8,7 +8,7 @@ export function About() {
       <h2 className="mb-6 text-sm font-semibold uppercase tracking-widest text-primary">
         About
       </h2>
-      <div className="max-w-3xl space-y-4 text-base leading-relaxed text-muted-foreground md:text-lg">
+      <div className="max-w-4xl space-y-4 text-base leading-relaxed text-muted-foreground md:text-lg">
         <p>
           Software Engineering grad from the{" "}
           <a
@@ -28,8 +28,8 @@ export function About() {
           >
             Express Scripts Canada
           </a>
-          . Outside of work, I'm drawn to full-stack development — I like
-          owning a feature end-to-end, from database schema to polished UI.
+          . I'm drawn to full-stack development and enjoy owning a feature
+          end-to-end, from database schema to polished UI.
         </p>
         <p>
           My goal is to keep growing as a well-rounded software engineer —

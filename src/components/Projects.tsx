@@ -14,7 +14,7 @@ export function Projects() {
 
   return (
     <section id="projects" className="py-12 md:py-16">
-      <div className="mb-6 flex items-center justify-between">
+      <div className="mb-8 flex items-center justify-between">
         <h2 className="text-sm font-semibold uppercase tracking-widest text-primary">
           Projects
         </h2>

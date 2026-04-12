@@ -15,8 +15,7 @@ export function Hero() {
         </h1>
         <p className="max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
           Developer passionate about creating, exploring, and growing with every
-          project. I like building things that are clean under the hood and
-          intuitive on the surface.
+          project. I care about clean code and intuitive interfaces.
         </p>
         <div className="mt-1 flex flex-wrap gap-3">
           <Button asChild>
