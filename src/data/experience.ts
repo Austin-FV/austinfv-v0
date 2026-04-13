@@ -9,7 +9,7 @@ export type ExperienceItem = {
 
 export const experience: ExperienceItem[] = [
   {
-    company: "Express Scripts Canada",
+    company: "Express Scripts",
     companyUrl: "https://www.express-scripts.ca",
     role: "Automation Engineer",
     start: "Mar 2024",

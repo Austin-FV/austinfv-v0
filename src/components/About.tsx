@@ -10,7 +10,16 @@ export function About() {
       </h2>
       <div className="max-w-4xl space-y-4 text-base leading-relaxed text-muted-foreground md:text-lg">
         <p>
-          Software Engineering grad from the{" "}
+          Currently an Automation Engineer at{" "}
+          <a
+            href="https://www.express-scripts.ca"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium text-foreground transition-colors hover:text-primary"
+          >
+            Express Scripts
+          </a>
+          , with a background in Software Engineering from the{" "}
           <a
             href={profile.education.schoolUrl}
             target="_blank"
@@ -19,16 +28,7 @@ export function About() {
           >
             University of Guelph
           </a>
-          , currently an Automation Engineer at{" "}
-          <a
-            href="https://www.express-scripts.ca"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-medium text-foreground transition-colors hover:text-primary"
-          >
-            Express Scripts Canada
-          </a>
-          . I'm drawn to full-stack development and enjoy owning a feature
+          . I'm drawn to full-stack development and enjoy owning features
           end-to-end, from database schema to polished UI.
         </p>
         <p>
@@ -41,8 +41,8 @@ export function About() {
           <span className="font-medium text-foreground">
             When I'm not working
           </span>
-          , you'll probably find me at the gym (meal prep game is serious),
-          watching movies or anime, discovering new music, new food or new activities.
+          , I'm usually at the gym, meal prepping, watching anime or movies,
+          checking out new music, and keeping up with soccer while glazing my GOAT.
         </p>
       </div>
       <div className="mt-8">
