@@ -1,8 +1,8 @@
-# austinfv
+# austinfv.dev
 
 My personal portfolio website — built with React, TypeScript, Tailwind CSS, and shadcn/ui.
 
-**[Live site →](https://austinfv.netlify.app)**
+**[Live site →](https://austinfv.dev)**
 
 ## Tech Stack
 
