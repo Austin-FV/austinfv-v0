@@ -33,7 +33,6 @@ function highlightKeywords(text: string): ReactNode {
 
 export function Experience() {
   const [active, setActive] = useState(0);
-  const item = experience[active];
 
   return (
     <section id="experience" className="py-12 md:py-16">
@@ -62,34 +61,47 @@ export function Experience() {
           ))}
         </div>
 
-        {/* Details panel */}
-        <div className="min-h-[280px] md:pl-8">
-          <h3 className="text-base font-semibold">
-            {item.role}{" "}
-            {item.companyUrl ? (
-              <a
-                href={item.companyUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary transition-colors hover:text-primary/70"
-              >
-                @ {item.company}
-              </a>
-            ) : (
-              <span className="text-primary">@ {item.company}</span>
-            )}
-          </h3>
-          <p className="mt-1 font-mono text-xs tracking-wide text-muted-foreground">
-            {item.start} – {item.end}
-          </p>
-          <ul className="mt-5 space-y-3">
-            {item.bullets.map((bullet, i) => (
-              <li key={i} className="flex items-baseline gap-3 text-sm leading-relaxed text-muted-foreground">
-                <span className="shrink-0 text-primary">–</span>
-                <span>{highlightKeywords(bullet)}</span>
-              </li>
-            ))}
-          </ul>
+        {/* Details panel — grid overlap: all panels in same cell, tallest sets height */}
+        <div className="grid md:pl-8" style={{ flexGrow: 1 }}>
+          {experience.map((exp, i) => (
+            <div
+              key={exp.company}
+              className={cn(
+                "[grid-row:1] [grid-column:1]",
+                i === active
+                  ? "visible"
+                  : "pointer-events-none invisible"
+              )}
+              aria-hidden={i !== active}
+            >
+              <h3 className="text-base font-semibold">
+                {exp.role}{" "}
+                {exp.companyUrl ? (
+                  <a
+                    href={exp.companyUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary transition-colors hover:text-primary/70"
+                  >
+                    @ {exp.company}
+                  </a>
+                ) : (
+                  <span className="text-primary">@ {exp.company}</span>
+                )}
+              </h3>
+              <p className="mt-1 font-mono text-xs tracking-wide text-muted-foreground">
+                {exp.start} – {exp.end}
+              </p>
+              <ul className="mt-5 space-y-3">
+                {exp.bullets.map((bullet, j) => (
+                  <li key={j} className="flex items-baseline gap-3 text-sm leading-relaxed text-muted-foreground">
+                    <span className="shrink-0 text-primary">–</span>
+                    <span>{highlightKeywords(bullet)}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
       </div>
     </section>
