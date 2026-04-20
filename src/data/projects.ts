@@ -14,6 +14,14 @@ export const projects: Project[] = [
     technologies: ["TypeScript", "VS Code API", "Anthropic", "OpenAI"],
   },
   {
+    name: "austinfv.dev",
+    description:
+      "Personal portfolio site built from scratch — responsive single-page app with a dark/light theme, tabbed experience section, and project showcase.",
+    githubUrl: "https://github.com/Austin-FV/austinfv-v0",
+    liveUrl: "https://austinfv.dev",
+    technologies: ["React", "TypeScript", "Vite", "Tailwind CSS"],
+  },
+  {
     name: "touchline.ai",
     description:
       "SaaS platform for soccer coaches to manage players, training sessions, injuries, and team analytics — all in one place.",
