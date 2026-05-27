@@ -15,6 +15,7 @@ export const technologies: string[] = [
   "Docker",
   "Git",
   "CI/CD",
+  "Playwright",
   "Selenium / JUnit / Cucumber",
   "Supabase",
   "Tailwind CSS",

@@ -9,8 +9,9 @@ const VISIBLE_COUNT = 4;
 
 export function Projects() {
   const [showAll, setShowAll] = useState(false);
-  const hasMore = projects.length > VISIBLE_COUNT;
-  const visible = showAll ? projects : projects.slice(0, VISIBLE_COUNT);
+  const activeProjects = projects.filter((p) => !p.hidden);
+  const hasMore = activeProjects.length > VISIBLE_COUNT;
+  const visible = showAll ? activeProjects : activeProjects.slice(0, VISIBLE_COUNT);
 
   return (
     <section id="projects" className="py-12 md:py-16">

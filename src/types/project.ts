@@ -5,4 +5,5 @@ export type Project = {
   liveUrl?: string;
   technologies: string[];
   image?: string;
+  hidden?: boolean;
 };
