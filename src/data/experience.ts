@@ -11,15 +11,15 @@ export const experience: ExperienceItem[] = [
   {
     company: "Express Scripts",
     companyUrl: "https://www.express-scripts.ca",
-    role: "Automation Engineer",
+    role: "QA Automation Engineer",
     start: "Mar 2024",
     end: "Present",
     bullets: [
-      "Engineered a data provisioning tool to generate 1,000+ test users in staging, enabling large-scale performance validation under production-like conditions.",
-      "Designed and scaled a Java automation framework with Selenium, JUnit, Cucumber (BDD), and Maven, building 25+ reusable components that expanded regression coverage and cut manual QA by 75%.",
+      "Architected and led a Playwright automation framework in TypeScript, designing for maintainability with a page-object model and reusable fixtures that cut code per test ~50% and suite runtime 60%.",
+      "Engineered a data provisioning tool to generate 1,000+ test users mapped to linked pharmacy records, enforcing one-to-one integrity and dependency constraints for valid, production-like test data at scale.",
+      "Built and maintained a Java automation framework using Selenium, JUnit, Cucumber/BDD, and Maven, developing 25+ reusable components that cut manual QA 75%.",
       "Automated API and data validation with REST assertions and Oracle SQL across 50+ endpoints, ensuring consistency between services and databases.",
       "Identified high-risk edge cases through code reviews with developers, reducing post-release defects by 30% across 10+ release cycles.",
-      "Standardized Zephyr test case practices in Jira across 100+ test cases, improving consistency and traceability.",
     ],
   },
   {

@@ -5,6 +5,8 @@ import { cn } from "@/lib/utils";
 import { experience } from "@/data/experience";
 
 const KEYWORDS = [
+  "Playwright",
+  "TypeScript",
   "Java",
   "Selenium",
   "JUnit",

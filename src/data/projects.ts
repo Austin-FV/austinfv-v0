@@ -14,6 +14,13 @@ export const projects: Project[] = [
     technologies: ["TypeScript", "VS Code API", "Anthropic", "OpenAI"],
   },
   {
+    name: "job-apply-agent",
+    description:
+      "AI agent that automates end-to-end job applications — scrapes postings, generates tailored resumes and cover letters, and autonomously fills ATS forms using browser automation.",
+    githubUrl: "https://github.com/Austin-FV/job-apply-agent",
+    technologies: ["Python", "Claude API", "Playwright", "Pydantic"],
+  },
+  {
     name: "austinfv.dev",
     description:
       "Personal portfolio site built from scratch — responsive single-page app with a dark/light theme, tabbed experience section, and project showcase.",
