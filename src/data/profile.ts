@@ -1,9 +1,9 @@
 export const profile = {
   name: "Austin Varghese",
   tagline: "Software Engineer",
-  bio: "Software Engineer based in Ontario, Canada. Currently building test automation frameworks and API validation tooling at Express Scripts Canada.",
+  bio: "Software Engineer based in Ontario, Canada. Currently building test automation frameworks and API validation tooling at Express Scripts.",
   education: {
-    degree: "Bachelor of Computing, Software Engineering",
+    degree: "Bachelor of Computing, Software Engineering with a Minor in Business",
     school: "University of Guelph",
     schoolUrl: "https://www.uoguelph.ca",
     honours: "Graduated with Distinction — Dean's Honours List",

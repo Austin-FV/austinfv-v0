@@ -33,7 +33,6 @@ export const experience: ExperienceItem[] = [
       "Built a custom issue-tracking system managing 100+ internal requests, streamlining intake and categorization.",
       "Integrated custom SharePoint forms with Excel reporting, eliminating 80% of manual entry errors.",
       "Automated form validation and email notifications, cutting average request response time by 40%.",
-      "Improved operational efficiency by 50% across North American operations through workflow automation.",
     ],
   },
 ];
