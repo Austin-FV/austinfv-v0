@@ -11,7 +11,7 @@ export const experience: ExperienceItem[] = [
   {
     company: "Express Scripts",
     companyUrl: "https://www.express-scripts.ca",
-    role: "QA Automation Engineer",
+    role: "Software Development Engineer in Test",
     start: "Mar 2024",
     end: "Present",
     bullets: [
