@@ -19,6 +19,10 @@ const KEYWORDS = [
   "SharePoint",
   "Excel",
   "BDD",
+  "Gherkin",
+  "axe-core",
+  "AODA",
+  "JMeter",
 ];
 
 function highlightKeywords(text: string): ReactNode {

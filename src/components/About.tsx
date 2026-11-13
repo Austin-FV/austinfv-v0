@@ -10,7 +10,7 @@ export function About() {
       </h2>
       <div className="max-w-4xl space-y-4 text-base leading-relaxed text-muted-foreground md:text-lg">
         <p>
-          Currently an Automation Engineer at{" "}
+          Currently a Software Developer, Quality Engineer at{" "}
           <a
             href="https://www.express-scripts.ca"
             target="_blank"

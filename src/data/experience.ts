@@ -11,15 +11,17 @@ export const experience: ExperienceItem[] = [
   {
     company: "Express Scripts",
     companyUrl: "https://www.express-scripts.ca",
-    role: "Software Development Engineer in Test",
+    role: "Software Developer, Quality Engineer",
     start: "Mar 2024",
     end: "Present",
     bullets: [
-      "Architected and led a Playwright automation framework in TypeScript, designing for maintainability with a page-object model and reusable fixtures that cut code per test ~50% and suite runtime 60%.",
-      "Engineered a data provisioning tool to generate 1,000+ test users mapped to linked pharmacy records, enforcing one-to-one integrity and dependency constraints for valid, production-like test data at scale.",
-      "Built and maintained a Java automation framework using Selenium, JUnit, Cucumber/BDD, and Maven, developing 25+ reusable components that cut manual QA 75%.",
-      "Automated API and data validation with REST assertions and Oracle SQL across 50+ endpoints, ensuring consistency between services and databases.",
-      "Identified high-risk edge cases through code reviews with developers, reducing post-release defects by 30% across 10+ release cycles.",
+      "Introduced and architected a TypeScript Playwright framework replacing the legacy Selenium/Cucumber suite, with page objects, fixtures, and stable locators; cut code per test ~50% and runtime 60% (55 to 22 min).",
+      "Embedded automated axe-core accessibility scans into every Playwright page test, enforcing AODA compliance across 100+ pages and surfacing 40+ violations before release.",
+      "Built a Java test-data tool that seeds production-like environments with 1,000+ users and linked pharmacy records while enforcing integrity constraints, reducing setup from 3–4 days to 30 minutes.",
+      "Developed JMeter load tests for login and file-download flows, simulating up to 500 concurrent users to establish sub-2s response-time baselines and validate a 99.5% download success rate under load.",
+      "Converted 75% of manual regression in a Java BDD framework (Cucumber, Selenium), defining Gherkin acceptance scenarios with the business analyst; cut those cases from 6 hours to 55 minutes.",
+      "Automated API and data validation across 50+ REST endpoints, pairing REST assertions with Oracle SQL consistency checks; saved 4+ hours of manual checks per release and caught 15+ data defects.",
+      "Reviewed developer code for testability and edge-case risk and investigated production defects through Oracle data analysis, contributing to a 30% drop in post-release defects over 10+ releases.",
     ],
   },
   {
@@ -29,10 +31,9 @@ export const experience: ExperienceItem[] = [
     start: "May 2021",
     end: "Apr 2022",
     bullets: [
-      "Developed internal tools using SharePoint, supporting 3+ departments and optimizing cross-team workflows.",
-      "Built a custom issue-tracking system managing 100+ internal requests, streamlining intake and categorization.",
-      "Integrated custom SharePoint forms with Excel reporting, eliminating 80% of manual entry errors.",
-      "Automated form validation and email notifications, cutting average request response time by 40%.",
+      "Built SharePoint internal tools for 3 departments, including an issue-tracking system managing 100+ requests.",
+      "Integrated custom SharePoint forms with Excel reporting, eliminating 80% of manual data-entry errors.",
+      "Automated form validation and email notification workflows, cutting average request response time by 40%.",
     ],
   },
 ];
