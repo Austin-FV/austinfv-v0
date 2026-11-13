@@ -31,9 +31,10 @@ export const experience: ExperienceItem[] = [
     start: "May 2021",
     end: "Apr 2022",
     bullets: [
-      "Built SharePoint internal tools for 3 departments, including an issue-tracking system managing 100+ requests.",
-      "Integrated custom SharePoint forms with Excel reporting, eliminating 80% of manual data-entry errors.",
-      "Automated form validation and email notification workflows, cutting average request response time by 40%.",
+      "Developed internal tools using SharePoint, supporting 3+ departments and optimizing cross-team workflows.",
+      "Built a custom issue-tracking system managing 100+ internal requests, streamlining intake and categorization.",
+      "Integrated custom SharePoint forms with Excel reporting, eliminating 80% of manual entry errors.",
+      "Automated form validation and email notifications, cutting average request response time by 40%.",
     ],
   },
 ];
